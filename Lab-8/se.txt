@@ -1,0 +1,6 @@
+     1 BSEF09M001 Hammad Khan                     74  54  60   188 62.7   C+ 
+     2 BSEF09M003 Younas Ahmad                    73  89  55   217 72.3   B  
+     3 BSEF09M005 Riffat Kaleem                   86  72  92   250 83.3   A- 
+     4 BSEF09M012 Barkat Jan                      77  70  83   230 76.7   B+ 
+                                                 ============================
+                             BSE DEGREE AVERAGE: 310 285 290   885

@@ -1,0 +1,5 @@
+     1 BITF09M002 Khawer Hayat                    66  63  67   196 65.3   B- 
+     2 BITF09M003 Kishwar Hameed                  77  89  70   236 78.7   B+ 
+     3 BITF09M010 Yasir Ubaid                     69  80  84   233 77.7   B+ 
+                                                 ============================
+                             BIT DEGREE AVERAGE: 212 232 221   665
