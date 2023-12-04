@@ -33,7 +33,7 @@ def adding():
     t = input('Enter Title:')
     if len(t) > 40:
         while len(t) > 40:
-            print('title must be less than 41 characters..')
+            print('Title must be less than 41 characters..')
             t = input('Enter Title:')
     h = int(input('Enter Credit hours:'))
     s = int(input('Enter Semester:'))
@@ -55,7 +55,7 @@ def deleting():
         saving(data)
         display()
     else:
-        print('no such record found')
+        print('No such record found')
 
 def listing():
     display()
@@ -64,9 +64,10 @@ def searhing():
     key = input('Enter Code for which you want to search:')
     data = loading()
     if key in data.keys():
+        print('CODE'.ljust(8) + 'TITLE'.ljust(30) + ' CREDIT HOURS' + ' SEMESTER' + '  TYPE ')
         print(' '.join(data[key].values()))
     else:
-        print('no such record found')
+        print('No such record found')
 
 def editing():
     key = input('Enter Code for which you want to edit:')
@@ -76,7 +77,7 @@ def editing():
     print('PRESS\n 1 for title change\n 2 for credit_hours change\n 3 for semester change\n 4 for type change')
     options = (1, 2, 3, 4)
     while True:
-        x = int(input('what do you want to edit in it?'))
+        x = int(input('What do you want to edit in it?'))
         if x in options: break;
         print('Choose within given range(1-4) for editing!')
     if x == 1:
@@ -97,12 +98,16 @@ def editing():
     display()
 
 while True:
+    print()
+    print('-----------<< WELCOME TO STUDENT MANAGEMENT SYSTEM >>------------')
+    print()
     x = input('ENTER:\n a for adding\n d for deleting\n s for searching\n l for listing\n e for editing\n q for quiet\nEnter here: ')
     if x == 'a':
         adding()
     elif x == 'd':
         deleting()2
     elif x == 'q':
+        print('THANK YOU FOR USING OUR SYSTEM')
         break
     elif x == 'l':
         listing()
